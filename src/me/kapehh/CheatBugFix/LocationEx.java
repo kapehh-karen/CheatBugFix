@@ -1,3 +1,4 @@
+/*
 package me.kapehh.CheatBugFix;
 
 import org.bukkit.Bukkit;
@@ -5,13 +6,15 @@ import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
 
+*/
 /**
  * Created with IntelliJ IDEA.
  * User: Kapeh
  * Date: 18.12.13
  * Time: 23:16
  * To change this template use File | Settings | File Templates.
- */
+ *//*
+
 public class LocationEx {
 
     public static String toString(Location in) {
@@ -103,3 +106,4 @@ public class LocationEx {
         }
     }
 }
+*/

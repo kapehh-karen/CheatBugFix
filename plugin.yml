@@ -1,4 +1,4 @@
-name: TestCheatBugFix
-main: me.kapehh.CheatBugFix.TestCheatBugFix
+name: CheatBugFix
+main: me.kapehh.CheatBugFix.CheatBugFix
 author: kapehh
 version: 1.0.0

@@ -1,3 +1,4 @@
+/*
 package me.kapehh.CheatBugFix;
 
 import org.bukkit.event.EventHandler;
@@ -6,13 +7,15 @@ import org.bukkit.event.inventory.InventoryCloseEvent;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 
+*/
 /**
  * Created with IntelliJ IDEA.
  * User: Kapeh
  * Date: 11.01.14
  * Time: 23:21
  * To change this template use File | Settings | File Templates.
- */
+ *//*
+
 public class FindDuperListener implements Listener {
 
     private class PlayerDuperInventory {
@@ -150,3 +153,4 @@ public class FindDuperListener implements Listener {
         );
     }
 }
+*/

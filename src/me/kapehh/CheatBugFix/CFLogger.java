@@ -1,3 +1,4 @@
+/*
 package me.kapehh.CheatBugFix;
 
 import java.io.IOException;
@@ -7,13 +8,15 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.logging.*;
 
+*/
 /**
  * Created with IntelliJ IDEA.
  * User: kapehh
  * Date: 14.11.13
  * Time: 20:54
  * To change this template use File | Settings | File Templates.
- */
+ *//*
+
 public class CFLogger {
     public static final String fileSep = System.getProperty("file.separator");
     public static final String lineSep = System.getProperty("line.separator");
@@ -67,3 +70,4 @@ public class CFLogger {
         }
     }
 }
+*/

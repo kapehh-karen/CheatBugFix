@@ -35,8 +35,7 @@ public class AutoCloseInv implements Listener {
         Player player = (Player) event.getWhoClicked();
         InventoryHolder ih = event.getInventory().getHolder();
         Location player_location = player.getLocation(), location = null;
-        boolean is_cancel = false;
-        double radius;
+        boolean is_cancel;
         if(ih instanceof BlockState) {
             location = ((BlockState) ih).getLocation();
         } else if(ih instanceof Entity) {
@@ -50,12 +49,7 @@ public class AutoCloseInv implements Listener {
         if (!player_location.getWorld().equals(location.getWorld())) {
             is_cancel = true;
         } else {
-            radius = Math.sqrt(
-                Math.pow(player_location.getX() - location.getX(), 2) +
-                Math.pow(player_location.getY() - location.getY(), 2) +
-                Math.pow(player_location.getZ() - location.getZ(), 2)
-            );
-            is_cancel = radius > 15;
+            is_cancel = player_location.distance(location) > 15;
         }
         if (is_cancel) {
             event.setCancelled(true);

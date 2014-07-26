@@ -24,6 +24,7 @@ public class LeaveOnQuit implements Listener {
         return false;
     }
 
+    @SuppressWarnings("deprecation")
     @EventHandler(priority = EventPriority.HIGH)
     public void onQuit(PlayerQuitEvent event) {
         Player p = event.getPlayer();
