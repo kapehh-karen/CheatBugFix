@@ -1,4 +1,4 @@
-package me.kapehh.TestCheatBugFix;
+package me.kapehh.CheatBugFix;
 
 import org.bukkit.Material;
 import org.bukkit.entity.Player;

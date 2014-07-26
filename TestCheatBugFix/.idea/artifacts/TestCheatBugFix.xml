@@ -1,9 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="TestCheatBugFix">
-    <output-path>$PROJECT_DIR$/out/artifacts/TestCheatBugFix</output-path>
-    <root id="archive" name="TestCheatBugFix.jar">
-      <element id="module-output" name="TestCheatBugFix" />
-      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
-    </root>
-  </artifact>
-</component>

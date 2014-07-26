@@ -1,4 +1,4 @@
-package me.kapehh.TestCheatBugFix;
+package me.kapehh.CheatBugFix;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -43,7 +43,7 @@ public class CFLogger {
         }
     }
 
-    private static final Logger log = Logger.getLogger("me.kapehh.TestCheatBugFix.log");
+    private static final Logger log = Logger.getLogger("me.kapehh.CheatBugFix.log");
 
     public static void PrintInfo(String str) {
         log.info(str);
